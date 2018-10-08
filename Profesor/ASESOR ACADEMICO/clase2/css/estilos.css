@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+header{
+	width: 97%;
+	height: 80px;
+	background: lightblue;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+figure{
+	width: 200px;
+	float: left;
+}
+nav{
+	float: right;
+	margin-top: 28px;
+}
+nav li{
+	display: inline-block;
+	background: purple;
+	padding: 10px;
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+nav li ul{
+	position: absolute;
+	display: none;
+	margin-top: 10px;
+}
+nav li ul li{
+	display: block;
+}
+nav li:hover{
+	background: pink;
+}
+nav li:hover ul{
+	display: block;
+}
+#banner{
+	height: 400px;
+	background: gray;
+	position: relative;
+	top: 100px;
+}
+#banner h1{
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	border-width: 10px;
+	border-style: none;
+	/*
+		valores de border-style:
+		-dashed
+		-dotted
+		-double
+		-solid
+		-none
+	*/
+	border-color: yellow;
+	border: 3px solid orange;
+	position: relative;
+	top: 70px;
+	left:90px;
+}
+span{
+	border-left: 2px solid pink;
+}
+#principal{
+	width: 70%;
+	background: yellow;
+	float: left;
+}
+article{
+	width: 38%;
+	height: 300px;
+	border: 1px solid orange;
+	float: left;
+	margin: 22px;
+	padding: 10px;
+	overflow: auto;
+
+	/*
+		valores de overflow:
+		-visible
+		-hidden
+		-scroll
+		-auto
+	*/
+
+}
+article img{
+	width: 200px;
+	float: right;
+}
+.imagen-fija{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.imagen-oculta{
+	display: none;
+}
+aside{
+	width: 30%;
+	height: 800px;
+	background: pink;
+	float: right;
+}
+footer{
+	height: 80px;
+	background: black;
+	text-align: center;
+	color: white;
+	clear: both;
+}
+.formulario-buscar{
+	width: 350px;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+.input{
+	width: 250px;
+	padding: 8px;
+}
+.btn{
+	padding: 10px;
+	background: white;
+}
+.input::placeholder{
+	text-align: center;
+	color: green;
+}

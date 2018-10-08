@@ -1,0 +1,114 @@
+
+
+/*.contenedor p{
+	selector descendiente
+}*/
+
+/*.contenedor > p{
+	selector hijo directo
+}*/
+
+/*.contenedor p + p{
+	selector hermano adyacente
+}*/
+
+/*.contenedor p ~ p{
+	selector hermano general
+}*/
+
+.contenedor p + p{
+	color: yellow;
+}
+.cuadrado{
+	height: 50px;
+	background: green;
+}
+
+li{
+	display: inline-block;
+	margin: 5px;
+	background: blue;
+	padding: 5px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+/* selector atributo presente*/
+
+a[class], a[target]{
+	color: black;
+}
+
+/* selector atributo igual*/
+
+a[class="diferente"]{
+	background: black;
+}
+
+/* selector atributo contenido*/
+
+a[href*=".com"]{
+	background: yellow;
+}
+
+li:hover{
+	background: pink;
+}
+
+/*li:link{
+	background: orange;
+}*/
+
+li:active{
+	background: purple;
+}
+
+/*li:visited{
+	background: blue;
+}*/
+
+input:focus{
+	background: yellow;
+}
+input:checked{
+	display: none;
+}
+
+/*li:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: orange;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}*/
+
+/*Primer hijo*/
+
+ul li:first-child{
+	background: green;
+}
+
+/*hijo especificando el orden*/
+
+ul li:nth-child(2){
+	background: purple;
+	padding: 10px;
+}
+
+/*Último hijo*/
+
+ul li:last-child{
+	background: orange;
+}
+
+ul li:nth-child(2n){
+	background: lightblue;
+}
+
+ul li:not(.diferente){
+	background: black;
+}

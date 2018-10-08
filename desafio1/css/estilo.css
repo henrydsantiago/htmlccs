@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+header{
+	height: 80px;
+	background: lightblue;
+	padding: 50px;
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding: 20px 10px 0px 60px; /*padding en una zona linea donde cada valor corresponde en orden: Top, right, bottom, left- 
+								Si se colocan solo dos valores se asume que el primero es para arriba y abajo y el segundo para los lados-
+								Si se coloca un solo valor, se entiende que es para los 4 lados.*/
+	}
+#logo{
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+#barra{
+
+}
+	}
+	figure{
+		width: 200px;
+		float: left;
+	}

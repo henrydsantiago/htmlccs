@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+header{
+	height: 80px;
+	background: lightblue;
+	padding: 50px;
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding: 20px 10px 0px 60px; /*padding en una zona linea donde cada valor corresponde en orden: Top, right, bottom, left- 
+								Si se colocan solo dos valores se asume que el primero es para arriba y abajo y el segundo para los lados-
+								Si se coloca un solo valor, se entiende que es para los 4 lados.*/
+	}
+	form{
+		position: relative;
+		top:40px;
+	}
+	input {
+
+
+	}
+	figure{
+		width: 200px;
+		float: left;
+	}
+	nav{
+		padding-top: 20px;
+		float: right;
+	}
+	nav li{
+		padding:5px;
+		display: inline;
+		border: 2px solid orange;
+		border-radius: 15px;
+		background-color: white;
+	}
+	nav li a{
+		text-decoration: none;
+		
+	}
+
+	#banner{
+		height: 300px;
+		background-color: white;
+		border-width: 5px;
+		border-style: solid;
+		border-color: orange;
+	}
+	#banner h1{
+		font-size: 70px;
+		color: orange;
+		text-align: center;
+		position: relative;
+		top:50px;
+		left:0;
+	}
+	span{
+		border-left: 2px solid pink;
+	}
+	#principal{
+		width: 70%;
+		background-color: yellow;
+		float: left;
+	}
+
+	article {
+		width: 40%;
+		border:1px solid orange;
+		float: left;
+		margin:22px;
+		padding: 10px;
+	}
+	article img {
+		width: 200px;
+		float: right;
+	}
+
+	aside{
+		width: 30%;
+		height: 800px;
+		background-color: pink;
+		float: right;
+	}
+	footer{
+		height: 80px;
+		background-color: black;
+		text-align: center;
+		color: white;
+		clear: both;
+	}
+#buscar{
+	background-color: red;
+}
